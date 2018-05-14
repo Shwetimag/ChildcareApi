@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildcareApi", "ChildcareApi\ChildcareApi.csproj", "{26B0B85F-7149-41A7-B6E0-D03643F3F64F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{A0F0C53B-87F6-4600-BDFE-9DFDDF2850AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{C4E9A14A-598F-4B5E-A3F9-C4FE46B78582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26B0B85F-7149-41A7-B6E0-D03643F3F64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B0B85F-7149-41A7-B6E0-D03643F3F64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B0B85F-7149-41A7-B6E0-D03643F3F64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B0B85F-7149-41A7-B6E0-D03643F3F64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F0C53B-87F6-4600-BDFE-9DFDDF2850AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F0C53B-87F6-4600-BDFE-9DFDDF2850AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F0C53B-87F6-4600-BDFE-9DFDDF2850AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F0C53B-87F6-4600-BDFE-9DFDDF2850AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E9A14A-598F-4B5E-A3F9-C4FE46B78582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E9A14A-598F-4B5E-A3F9-C4FE46B78582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E9A14A-598F-4B5E-A3F9-C4FE46B78582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E9A14A-598F-4B5E-A3F9-C4FE46B78582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

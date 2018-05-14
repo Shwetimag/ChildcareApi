@@ -1,0 +1,84 @@
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\Entities.dll
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\Entities.pdb
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.dll
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.dll
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\System.Web.Cors.dll
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.dll
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\System.Web.Http.dll
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.xml
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.xml
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\System.Web.Http.xml
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.xml
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\obj\Debug\Entities.dll
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\obj\Debug\Entities.pdb
+D:\DayUsers\Shwetima G\ChildcareApi\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\Entities.dll
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\Entities.pdb
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.dll
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.dll
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\System.Web.Cors.dll
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.dll
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\System.Web.Http.dll
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.xml
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.xml
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\System.Web.Http.xml
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.xml
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\obj\Debug\Entities.dll
+D:\DayUsers\Abhishek G\react\Child-Care\ChildcareApi\Entities\obj\Debug\Entities.pdb
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Entities.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Entities.pdb
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.Web.Cors.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.Web.Http.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.Web.Http.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\obj\Debug\Entities.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\obj\Debug\Entities.pdb
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Entities.dll.config
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Testing.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Owin.dll
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\DayUsers\Shwetima G\shwetima\react\childcare\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Testing.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Entities.dll.config
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Entities.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Entities.pdb
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Testing.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Owin.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.Web.Cors.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.Web.Http.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Microsoft.Owin.Testing.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.Web.Http.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\obj\Debug\Entities.dll
+C:\Users\shwetimagupta\Desktop\Child-Care-Project\ChildcareApi\Entities\obj\Debug\Entities.pdb

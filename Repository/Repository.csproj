@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4E9A14A-598F-4B5E-A3F9-C4FE46B78582}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Repository</RootNamespace>
+    <AssemblyName>Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=5.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.5.2.1\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.2.1\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Hosting.4.0.0\lib\net451\Microsoft.Owin.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Testing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Testing.4.0.0\lib\net451\Microsoft.Owin.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.2.1\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Cors, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.4\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.4\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttendenceRepository.cs" />
+    <Compile Include="ChildCareContext.cs" />
+    <Compile Include="ClassRepository.cs" />
+    <Compile Include="IAttendenceRepository.cs" />
+    <Compile Include="IClassRepository.cs" />
+    <Compile Include="IParticipantRepository.cs" />
+    <Compile Include="Migrations\201804050749389_initial.cs" />
+    <Compile Include="Migrations\201804050749389_initial.Designer.cs">
+      <DependentUpon>201804050749389_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804050942290_initial1.cs" />
+    <Compile Include="Migrations\201804050942290_initial1.Designer.cs">
+      <DependentUpon>201804050942290_initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804100631412_test.cs" />
+    <Compile Include="Migrations\201804100631412_test.Designer.cs">
+      <DependentUpon>201804100631412_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804100649343_test1.cs" />
+    <Compile Include="Migrations\201804100649343_test1.Designer.cs">
+      <DependentUpon>201804100649343_test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804110543478_test2.cs" />
+    <Compile Include="Migrations\201804110543478_test2.Designer.cs">
+      <DependentUpon>201804110543478_test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804110852401_test3.cs" />
+    <Compile Include="Migrations\201804110852401_test3.Designer.cs">
+      <DependentUpon>201804110852401_test3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804120429335_test4.cs" />
+    <Compile Include="Migrations\201804120429335_test4.Designer.cs">
+      <DependentUpon>201804120429335_test4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804120736213_test5.cs" />
+    <Compile Include="Migrations\201804120736213_test5.Designer.cs">
+      <DependentUpon>201804120736213_test5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804120858461_test6.cs" />
+    <Compile Include="Migrations\201804120858461_test6.Designer.cs">
+      <DependentUpon>201804120858461_test6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804301024328_mig.cs" />
+    <Compile Include="Migrations\201804301024328_mig.Designer.cs">
+      <DependentUpon>201804301024328_mig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804301149370_mig1.cs" />
+    <Compile Include="Migrations\201804301149370_mig1.Designer.cs">
+      <DependentUpon>201804301149370_mig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805080551083_mig2.cs" />
+    <Compile Include="Migrations\201805080551083_mig2.Designer.cs">
+      <DependentUpon>201805080551083_mig2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805080609397_mig3.cs" />
+    <Compile Include="Migrations\201805080609397_mig3.Designer.cs">
+      <DependentUpon>201805080609397_mig3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805080641086_mig4.cs" />
+    <Compile Include="Migrations\201805080641086_mig4.Designer.cs">
+      <DependentUpon>201805080641086_mig4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805080757586_mig5.cs" />
+    <Compile Include="Migrations\201805080757586_mig5.Designer.cs">
+      <DependentUpon>201805080757586_mig5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805080809559_mig6.cs" />
+    <Compile Include="Migrations\201805080809559_mig6.Designer.cs">
+      <DependentUpon>201805080809559_mig6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805080908379_mig7.cs" />
+    <Compile Include="Migrations\201805080908379_mig7.Designer.cs">
+      <DependentUpon>201805080908379_mig7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ParticipantRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{a0f0c53b-87f6-4600-bdfe-9dfddf2850ac}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201804050749389_initial.resx">
+      <DependentUpon>201804050749389_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804050942290_initial1.resx">
+      <DependentUpon>201804050942290_initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804100631412_test.resx">
+      <DependentUpon>201804100631412_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804100649343_test1.resx">
+      <DependentUpon>201804100649343_test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804110543478_test2.resx">
+      <DependentUpon>201804110543478_test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804110852401_test3.resx">
+      <DependentUpon>201804110852401_test3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804120429335_test4.resx">
+      <DependentUpon>201804120429335_test4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804120736213_test5.resx">
+      <DependentUpon>201804120736213_test5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804120858461_test6.resx">
+      <DependentUpon>201804120858461_test6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804301024328_mig.resx">
+      <DependentUpon>201804301024328_mig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804301149370_mig1.resx">
+      <DependentUpon>201804301149370_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805080551083_mig2.resx">
+      <DependentUpon>201805080551083_mig2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805080609397_mig3.resx">
+      <DependentUpon>201805080609397_mig3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805080641086_mig4.resx">
+      <DependentUpon>201805080641086_mig4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805080757586_mig5.resx">
+      <DependentUpon>201805080757586_mig5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805080809559_mig6.resx">
+      <DependentUpon>201805080809559_mig6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805080908379_mig7.resx">
+      <DependentUpon>201805080908379_mig7.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
