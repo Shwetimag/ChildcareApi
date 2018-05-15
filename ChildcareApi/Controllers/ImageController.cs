@@ -11,11 +11,11 @@ using System.Web.Http;
 
 namespace ChildcareApi.Controllers
 {
-    [RoutePrefix("api/Upload")]
+    //[RoutePrefix("api/Upload")]
     public class ImageController : ApiController
     {
         [HttpPost]
-        [Route("user/PostUserImage")]
+        //[Route("user/PostUserImage")]
         [AllowAnonymous]
         public async Task<HttpResponseMessage> PostUserImage()
         {

@@ -258,25 +258,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804050746347_initial.cs" />
-    <Compile Include="Migrations\201804050746347_initial.Designer.cs">
-      <DependentUpon>201804050746347_initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804200627050_initial1.cs" />
-    <Compile Include="Migrations\201804200627050_initial1.Designer.cs">
-      <DependentUpon>201804200627050_initial1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804301023052_mig.cs" />
-    <Compile Include="Migrations\201804301023052_mig.Designer.cs">
-      <DependentUpon>201804301023052_mig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805110507477_mig1.cs" />
-    <Compile Include="Migrations\201805110507477_mig1.Designer.cs">
-      <DependentUpon>201805110507477_mig1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201805110509567_mig2.cs" />
-    <Compile Include="Migrations\201805110509567_mig2.Designer.cs">
-      <DependentUpon>201805110509567_mig2.cs</DependentUpon>
+    <Compile Include="Migrations\201805151221419_mig.cs" />
+    <Compile Include="Migrations\201805151221419_mig.Designer.cs">
+      <DependentUpon>201805151221419_mig.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -380,20 +364,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201804050746347_initial.resx">
-      <DependentUpon>201804050746347_initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804200627050_initial1.resx">
-      <DependentUpon>201804200627050_initial1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804301023052_mig.resx">
-      <DependentUpon>201804301023052_mig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805110507477_mig1.resx">
-      <DependentUpon>201805110507477_mig1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805110509567_mig2.resx">
-      <DependentUpon>201805110509567_mig2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805151221419_mig.resx">
+      <DependentUpon>201805151221419_mig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
